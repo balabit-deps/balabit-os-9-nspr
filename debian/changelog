@@ -1,3 +1,11 @@
+nspr (2:4.35-0ubuntu0.22.04.1) jammy-security; urgency=medium
+
+  * Update to 4.35 to support nss security update.
+    - debian/patches/ac_config_aux_dir: removed, included in new version.
+    - debian/libnspr3.symbols: added new symbol.
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Thu, 21 Mar 2024 08:18:35 -0400
+
 nspr (2:4.32-3build1) jammy; urgency=high
 
   * No change rebuild for ppc64el baseline bump.
